@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apt-explorer"
+version = "1.0.0"
+description = "Interactive curses TUI to explore APT repositories and download .deb packages"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []  # stdlib only
+
+[project.scripts]
+apt-explorer = "aptexplorer.cli:main"
+
+[tool.setuptools]
+packages = ["aptexplorer"]
