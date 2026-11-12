@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Interactive curses TUI to explore APT repositories and download .deb packages"
 readme = "README.md"
 requires-python = ">=3.9"
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 dependencies = []  # stdlib only
 
 [project.scripts]
